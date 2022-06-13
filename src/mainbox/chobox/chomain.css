@@ -1,0 +1,105 @@
+.chbox{
+    width: 85%;
+    height: 100%;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+}
+
+.chback{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+}
+
+.chbackbox{
+    background-color: white;
+    border: 0px solid beige;
+}
+
+.chbackbutton{
+    font-size: 30px;
+}
+
+
+.chant{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chse{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+}
+
+.chiconbox{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chicon{
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 100%;
+
+}
+
+.chheaderbox{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    align-items: center;
+    width: 100%;
+}
+
+
+.chinputbox{
+    border-bottom: 1px solid black;
+}
+
+.chinput{
+    border: 0px solid black;
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+}
+
+#chtitle{
+    width: 100%;
+    font-size: 16px;
+}
+
+#chtext{
+    width: 100%;
+    font-size: 14px;
+}
+.chbuttonbox{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chdatepickerday{
+    border: 0px solid black;
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+.chdatepickertime{
+    border: 0px solid black;
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+}
