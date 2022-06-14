@@ -7,6 +7,7 @@
     border-bottom: 1px solid silver;
     display:flex;
     justify-content: center;
+    position: relative;
 }
 
 .todo:hover > .hoverbox{
@@ -64,7 +65,7 @@
     height: 100%;
     display: flex;
     font-size: 13px;
-    align-items: end;
+    align-items: flex-end;
     justify-content: right;
     
 }
@@ -81,7 +82,7 @@
 .hoverbox{
     position:absolute;
     border: 0px solid black;
-    width: 85%;
+    width: 100%;
     height: 70px;
     margin-left: 7.5%;
     margin-right: 7.5%;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./input.css";
 import { BsPlusLg } from "react-icons/bs";
-function Input({ value, chvalue, zo, chzo }) {
+function Input({ chzo, comp}) {
   const ButtonClick = (e) => {
     chzo("1");
   };
@@ -9,6 +9,9 @@ function Input({ value, chvalue, zo, chzo }) {
     <div className="input_box">
       <div className="input_len">
         <div className="input_len_text">COMPLETED </div>
+        <div id="compleVbox">
+          <div id="compleV">{comp}</div>
+        </div>
       </div>
       <div className="inputdiv">
         <form className="input_form">

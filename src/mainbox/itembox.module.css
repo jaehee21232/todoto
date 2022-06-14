@@ -82,7 +82,7 @@
     height: 100%;
     display: flex;
     font-size: 13px;
-    align-items: end;
+    align-items: flex-end;
     justify-content: right;
     
 }

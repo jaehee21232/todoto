@@ -29,7 +29,7 @@ function Cho({ value, chvalue, zo, chzo }) {
         return;
       } else {
         const DMget = `${startDate.getMonth() + 1}월 ${startDate.getDate()}일`;
-        const TIget = `${startTime.getHours() + 1}시 ${startTime.getDate()}분`;
+        const TIget = `${startTime.getHours()}시 ${startTime.getMinutes()}분`;
         const ang = {
           id: value.length,
           Tvalue: Tvalue,

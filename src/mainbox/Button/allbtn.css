@@ -3,8 +3,13 @@
     height: 50px;
     opacity: 1;
     border-radius: 100%;
-    
-}
+    z-index: 1;
+    position: relative; 
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
 
 .ButtonsDiv{
     display: flex;
