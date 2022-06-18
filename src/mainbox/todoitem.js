@@ -2,12 +2,12 @@ import React from "react";
 import "./todoitem.css";
 import Allbtn from "./Button/allbtn.js";
 
-function TodoItem({ item, chvalue, value, comp, chcomp, chzo }) {
+function TodoItem({ item, chvalue, value, comp, chcomp, chzo,chfevalue }) {
   return (
     <div className="todo">
       <div className="hoverbox">
         <div className="ButtonsBox">
-          <Allbtn item={item} value={value} chvalue={chvalue} comp={comp} chcomp={chcomp} chzo={chzo}></Allbtn>
+          <Allbtn chfevalue={chfevalue}item={item} value={value} chvalue={chvalue} comp={comp} chcomp={chcomp} chzo={chzo}></Allbtn>
         </div>
       </div>
       <div className="iconbox">

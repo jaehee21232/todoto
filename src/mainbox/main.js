@@ -8,16 +8,17 @@ import Rev from "./chobox/revmain.js"
 
 function Main() {
   const [value, chvalue] = useState([]);
-  const [fevalue, chfevalue] = useState([])
+  const [fevalue, chfevalue] = useState({})
   const [zo, chzo] = useState("0");
   const [comp, chcomp] = useState(0)
+  const [num, chnum] = useState(0);
   if (zo === "1") {
-    return <Cho value={value} chvalue={chvalue} zo={zo} chzo={chzo} />;
-  } else if(zo === "2"){return <Rev value={value} chvalue={chvalue} zo={zo} chzo={chzo} fevalue={fevalue} chfevalue={chfevalue}/> }else {
+    return <Cho value={value} chvalue={chvalue} zo={zo} chzo={chzo} fevalue={fevalue} chfevalue={chfevalue} chnum={chnum} num={num}/>;
+  } else {
     return (
       <div className="body">
         <He />
-        <Items value={value} chvalue={chvalue} zo={zo} chzo={chzo} comp={comp} chcomp={chcomp}/>
+        <Items chfevalue={chfevalue}value={value} chvalue={chvalue} zo={zo} chzo={chzo} comp={comp} chcomp={chcomp}/>
         <Input chzo={chzo} comp={comp} chcomp={chcomp}/>
       </div>
     );
